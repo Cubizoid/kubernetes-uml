@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Profile xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_pFSLYNH8EeuXzb9MKdh0WA" name="kubernetes" metaclassReference="_sSvl4NH8EeuXzb9MKdh0WA _75-kANH9EeuXzb9MKdh0WA">
+  <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wCQkkdH8EeuXzb9MKdh0WA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6rzWINH8EeuXzb9MKdh0WA" source="PapyrusVersion">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6rzWIdH8EeuXzb9MKdh0WA" key="Version" value="0.0.0"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6rzWItH8EeuXzb9MKdh0WA" key="Comment" value="&lt;undefined>"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6rzWI9H8EeuXzb9MKdh0WA" key="Copyright" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6rzWJNH8EeuXzb9MKdh0WA" key="Date" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6rzWJdH8EeuXzb9MKdh0WA" key="Author" value="&lt;undefined>"/>
+    </eAnnotations>
+    <contents xmi:type="ecore:EPackage" xmi:id="_hDjXUdIBEeuPEsVqZZ-NBQ" name="kubernetes" nsURI="http:///schemas/kubernetes/_hDjXUNIBEeuPEsVqZZ-NBQ/3" nsPrefix="kubernetes">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hDj-YtIBEeuPEsVqZZ-NBQ" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hDj-Y9IBEeuPEsVqZZ-NBQ" key="Version" value="0.0.4"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hDj-ZNIBEeuPEsVqZZ-NBQ" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hDj-ZdIBEeuPEsVqZZ-NBQ" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hDj-ZtIBEeuPEsVqZZ-NBQ" key="Date" value="2021-06-20"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hDj-Z9IBEeuPEsVqZZ-NBQ" key="Author" value="Kelly Ferrone"/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_hDjXUtIBEeuPEsVqZZ-NBQ" name="Node" eSuperTypes="_hDjXWdIBEeuPEsVqZZ-NBQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hDjXU9IBEeuPEsVqZZ-NBQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_KHSzwNH9EeuXzb9MKdh0WA"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_hDjXVNIBEeuPEsVqZZ-NBQ" name="base_Node" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Node"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_hDjXVtIBEeuPEsVqZZ-NBQ" name="labels" ordered="false" upperBound="-1" eType="_hDjXW9IBEeuPEsVqZZ-NBQ" containment="true"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_hDjXWdIBEeuPEsVqZZ-NBQ" name="KubernetesObject">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hDjXWtIBEeuPEsVqZZ-NBQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_9u3pENH9EeuXzb9MKdh0WA"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_hDjXW9IBEeuPEsVqZZ-NBQ" name="label">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hDjXXNIBEeuPEsVqZZ-NBQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_yyWJwNIAEeuPEsVqZZ-NBQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_hDjXXdIBEeuPEsVqZZ-NBQ" name="key" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_hDjXX9IBEeuPEsVqZZ-NBQ" name="value" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_DYQMEdIBEeuPEsVqZZ-NBQ" name="kubernetes" nsURI="http:///schemas/kubernetes/_DYQMENIBEeuPEsVqZZ-NBQ/2" nsPrefix="kubernetes">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DYQzItIBEeuPEsVqZZ-NBQ" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DYQzI9IBEeuPEsVqZZ-NBQ" key="Version" value="0.0.3"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DYQzJNIBEeuPEsVqZZ-NBQ" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DYQzJdIBEeuPEsVqZZ-NBQ" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DYQzJtIBEeuPEsVqZZ-NBQ" key="Date" value="2021-06-20"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DYQzJ9IBEeuPEsVqZZ-NBQ" key="Author" value="Kelly Ferrone"/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_DYQMEtIBEeuPEsVqZZ-NBQ" name="Node" eSuperTypes="_DYQMGdIBEeuPEsVqZZ-NBQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DYQME9IBEeuPEsVqZZ-NBQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_KHSzwNH9EeuXzb9MKdh0WA"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_DYQMFNIBEeuPEsVqZZ-NBQ" name="base_Node" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Node"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_DYQMFtIBEeuPEsVqZZ-NBQ" name="labels" ordered="false" lowerBound="1" eType="_DYQMG9IBEeuPEsVqZZ-NBQ" containment="true"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_DYQMGdIBEeuPEsVqZZ-NBQ" name="KubernetesObject">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DYQMGtIBEeuPEsVqZZ-NBQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_9u3pENH9EeuXzb9MKdh0WA"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_DYQMG9IBEeuPEsVqZZ-NBQ" name="label">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DYQMHNIBEeuPEsVqZZ-NBQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_yyWJwNIAEeuPEsVqZZ-NBQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_DYQMHdIBEeuPEsVqZZ-NBQ" name="key" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_DYQMH9IBEeuPEsVqZZ-NBQ" name="value" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_AlkpEdIBEeuPEsVqZZ-NBQ" name="kubernetes" nsURI="http:///schemas/kubernetes/_AlkpENIBEeuPEsVqZZ-NBQ/1" nsPrefix="kubernetes">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_AlkpItIBEeuPEsVqZZ-NBQ" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_AlkpI9IBEeuPEsVqZZ-NBQ" key="Version" value="0.0.2"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_AlkpJNIBEeuPEsVqZZ-NBQ" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_AlkpJdIBEeuPEsVqZZ-NBQ" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_AlkpJtIBEeuPEsVqZZ-NBQ" key="Date" value="2021-06-20"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_AlkpJ9IBEeuPEsVqZZ-NBQ" key="Author" value="Kelly Ferrone"/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_AlkpEtIBEeuPEsVqZZ-NBQ" name="Node">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_AlkpE9IBEeuPEsVqZZ-NBQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_KHSzwNH9EeuXzb9MKdh0WA"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_AlkpFNIBEeuPEsVqZZ-NBQ" name="base_Node" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Node"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_AlkpFtIBEeuPEsVqZZ-NBQ" name="labels" ordered="false" lowerBound="1" eType="_AlkpGNIBEeuPEsVqZZ-NBQ" containment="true"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_AlkpGNIBEeuPEsVqZZ-NBQ" name="label">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_AlkpGdIBEeuPEsVqZZ-NBQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_yyWJwNIAEeuPEsVqZZ-NBQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_AlkpGtIBEeuPEsVqZZ-NBQ" name="key" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_AlkpHNIBEeuPEsVqZZ-NBQ" name="value" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_AlkpHtIBEeuPEsVqZZ-NBQ" name="KubernetesObject">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_AlkpH9IBEeuPEsVqZZ-NBQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_9u3pENH9EeuXzb9MKdh0WA"/>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_wCRLoNH8EeuXzb9MKdh0WA" name="kubernetes" nsURI="http:///schemas/kubernetes/_wCQkkNH8EeuXzb9MKdh0WA/0" nsPrefix="kubernetes">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wCRLodH8EeuXzb9MKdh0WA" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wCRLotH8EeuXzb9MKdh0WA" key="Version" value="0.0.1"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wCRLo9H8EeuXzb9MKdh0WA" key="Comment" value="init"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wCRLpNH8EeuXzb9MKdh0WA" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wCRLpdH8EeuXzb9MKdh0WA" key="Date" value="2021-06-20"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wCRLptH8EeuXzb9MKdh0WA" key="Author" value="Kelly Ferrone"/>
+      </eAnnotations>
+    </contents>
+  </eAnnotations>
+  <elementImport xmi:type="uml:ElementImport" xmi:id="_sSvl4NH8EeuXzb9MKdh0WA" alias="Node">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Node"/>
+  </elementImport>
+  <elementImport xmi:type="uml:ElementImport" xmi:id="_75-kANH9EeuXzb9MKdh0WA" alias="DataType">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#DataType"/>
+  </elementImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_pHiOINH8EeuXzb9MKdh0WA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_pHiOIdH8EeuXzb9MKdh0WA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_METAMODELS/UML.metamodel.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_KHSzwNH9EeuXzb9MKdh0WA" name="Node">
+    <generalization xmi:type="uml:Generalization" xmi:id="_CFlqUNIBEeuPEsVqZZ-NBQ" general="_9u3pENH9EeuXzb9MKdh0WA"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_3LF9kNH-EeuXzb9MKdh0WA" name="base_Node" association="_3LEIYNH-EeuXzb9MKdh0WA">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Node"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3LF9kdH-EeuXzb9MKdh0WA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ByYh0NH-EeuXzb9MKdh0WA" name="labels" type="_yyWJwNIAEeuPEsVqZZ-NBQ" aggregation="composite">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_e6UZ8NIBEeuPEsVqZZ-NBQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_e6agkNIBEeuPEsVqZZ-NBQ" value="*"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_hHQBANIAEeuPEsVqZZ-NBQ" name="foo" value="bar"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_9u3pENH9EeuXzb9MKdh0WA" name="KubernetesObject"/>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_3LEIYNH-EeuXzb9MKdh0WA" name="E_Node_Node9" memberEnd="_3LFWgNH-EeuXzb9MKdh0WA _3LF9kNH-EeuXzb9MKdh0WA">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_3LFWgNH-EeuXzb9MKdh0WA" name="extension_Node" type="_KHSzwNH9EeuXzb9MKdh0WA" aggregation="composite" association="_3LEIYNH-EeuXzb9MKdh0WA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_yyWJwNIAEeuPEsVqZZ-NBQ" name="label">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_00N64NIAEeuPEsVqZZ-NBQ" name="key">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_2b5DUNIAEeuPEsVqZZ-NBQ" name="value">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+</uml:Profile>

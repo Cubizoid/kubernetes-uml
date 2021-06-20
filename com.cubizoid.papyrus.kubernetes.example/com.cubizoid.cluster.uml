@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:kubernetes="http:///schemas/kubernetes/_hDjXUNIBEeuPEsVqZZ-NBQ/3" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/kubernetes/_hDjXUNIBEeuPEsVqZZ-NBQ/3 ../kubernetes-uml/com.cubizoid.papyrus.kubernetes/profiles/kubernetes.profile.uml#_hDjXUdIBEeuPEsVqZZ-NBQ">
+  <uml:Model xmi:id="_vgJXANHxEeuOIJpdeEw33Q" name="cluster">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_vjHLcNHxEeuOIJpdeEw33Q">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Node" xmi:id="_U9x4UNIBEeuPEsVqZZ-NBQ" name="server-01"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_S6zT8NIBEeuPEsVqZZ-NBQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nLtoYNIBEeuPEsVqZZ-NBQ" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nLtoYdIBEeuPEsVqZZ-NBQ" key="Version" value="0.0.4"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nLtoYtIBEeuPEsVqZZ-NBQ" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nLtoY9IBEeuPEsVqZZ-NBQ" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nLtoZNIBEeuPEsVqZZ-NBQ" key="Date" value="2021-06-20"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nLtoZdIBEeuPEsVqZZ-NBQ" key="Author" value="Kelly Ferrone"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_S6z7ANIBEeuPEsVqZZ-NBQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="../kubernetes-uml/com.cubizoid.papyrus.kubernetes/profiles/kubernetes.profile.uml#_hDjXUdIBEeuPEsVqZZ-NBQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="../kubernetes-uml/com.cubizoid.papyrus.kubernetes/profiles/kubernetes.profile.uml#_pFSLYNH8EeuXzb9MKdh0WA"/>
+    </profileApplication>
+  </uml:Model>
+  <kubernetes:Node xmi:id="_Yvf2cNIBEeuPEsVqZZ-NBQ" base_Node="_U9x4UNIBEeuPEsVqZZ-NBQ">
+    <labels xmi:type="kubernetes:label" xmi:id="_b5dRANIBEeuPEsVqZZ-NBQ" key="foo" value="bar"/>
+    <labels xmi:type="kubernetes:label" xmi:id="_qqMhcNIBEeuPEsVqZZ-NBQ" key="snacks" value="for days"/>
+  </kubernetes:Node>
+</xmi:XMI>

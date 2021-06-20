@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <notation:Diagram xmi:id="_vhVp0NHxEeuOIJpdeEw33Q" type="PapyrusUMLClassDiagram" name="Class Diagram" measurementUnit="Pixel">
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_vhVp0dHxEeuOIJpdeEw33Q" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_vhVp0tHxEeuOIJpdeEw33Q"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_vhVp09HxEeuOIJpdeEw33Q" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
+      <owner xmi:type="uml:Model" href="com.cubizoid.cluster.uml#_vgJXANHxEeuOIJpdeEw33Q"/>
+    </styles>
+    <element xmi:type="uml:Model" href="com.cubizoid.cluster.uml#_vgJXANHxEeuOIJpdeEw33Q"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_vhc-kNHxEeuOIJpdeEw33Q" type="PapyrusUMLDeploymentDiagram" name="Deployment Diagram" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_U9zGcNIBEeuPEsVqZZ-NBQ" type="Node_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_U9zGctIBEeuPEsVqZZ-NBQ" type="Node_NameLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_U9zGc9IBEeuPEsVqZZ-NBQ" type="Node_NestedNodeCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_U9zGdNIBEeuPEsVqZZ-NBQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_U9zGddIBEeuPEsVqZZ-NBQ"/>
+      </children>
+      <element xmi:type="uml:Node" href="com.cubizoid.cluster.uml#_U9x4UNIBEeuPEsVqZZ-NBQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_U9zGcdIBEeuPEsVqZZ-NBQ" x="280" y="240"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_m1A_pdIBEeuPEsVqZZ-NBQ" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_m1A_ptIBEeuPEsVqZZ-NBQ"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_m1A_qNIBEeuPEsVqZZ-NBQ" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Node" href="com.cubizoid.cluster.uml#_U9x4UNIBEeuPEsVqZZ-NBQ"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m1A_p9IBEeuPEsVqZZ-NBQ" x="480" y="240"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_vhc-kdHxEeuOIJpdeEw33Q" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_vhc-ktHxEeuOIJpdeEw33Q"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_vhc-k9HxEeuOIJpdeEw33Q" diagramKindId="org.eclipse.papyrus.uml.diagram.deployment">
+      <owner xmi:type="uml:Model" href="com.cubizoid.cluster.uml#_vgJXANHxEeuOIJpdeEw33Q"/>
+    </styles>
+    <element xmi:type="uml:Model" href="com.cubizoid.cluster.uml#_vgJXANHxEeuOIJpdeEw33Q"/>
+    <edges xmi:type="notation:Connector" xmi:id="_m1A_qdIBEeuPEsVqZZ-NBQ" type="StereotypeCommentLink" source="_U9zGcNIBEeuPEsVqZZ-NBQ" target="_m1A_pdIBEeuPEsVqZZ-NBQ">
+      <styles xmi:type="notation:FontStyle" xmi:id="_m1A_qtIBEeuPEsVqZZ-NBQ"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_m1BmstIBEeuPEsVqZZ-NBQ" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Node" href="com.cubizoid.cluster.uml#_U9x4UNIBEeuPEsVqZZ-NBQ"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_m1A_q9IBEeuPEsVqZZ-NBQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_m1BmsNIBEeuPEsVqZZ-NBQ"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_m1BmsdIBEeuPEsVqZZ-NBQ"/>
+    </edges>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_vhgB4NHxEeuOIJpdeEw33Q" type="PapyrusUMLComponentDiagram" name="Component Diagram" measurementUnit="Pixel">
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_vhgB4dHxEeuOIJpdeEw33Q" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_vhgB4tHxEeuOIJpdeEw33Q"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_vhgB49HxEeuOIJpdeEw33Q" diagramKindId="org.eclipse.papyrus.uml.diagram.component.root.package">
+      <owner xmi:type="uml:Model" href="com.cubizoid.cluster.uml#_vgJXANHxEeuOIJpdeEw33Q"/>
+    </styles>
+    <element xmi:type="uml:Model" href="com.cubizoid.cluster.uml#_vgJXANHxEeuOIJpdeEw33Q"/>
+  </notation:Diagram>
+</xmi:XMI>
